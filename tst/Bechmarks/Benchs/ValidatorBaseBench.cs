@@ -96,7 +96,7 @@ public class DummyValidator
     protected override void ConfigureFluentValidationConcreteValidator(FluentValidationValidatorWrapper fluentValidationValidatorWrapper)
     {
         fluentValidationValidatorWrapper.RuleFor(q => q.Id)
-            .Must(id => id != default)
+            .Must(id => id != Guid.Empty)
             .WithErrorCode(ID_IS_REQUIRED_CODE)
             .WithMessage(ID_IS_REQUIRED_CODE)
             .WithSeverity(Severity.Error);
