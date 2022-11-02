@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7E0EB1C-437B-4D45-A71C-18FF40EB2DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCB.Core.Infra.CrossCutting.DesignPatterns.Validator", "src\MCB.Core.Infra.CrossCutting.DesignPatterns.Validator\MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.csproj", "{648F08E4-A46B-40AC-AE06-29FEADC51921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{337D5A0E-844B-4C2B-88DB-95F823E19D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.Tests", "tst\MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.Tests\MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.Tests.csproj", "{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bechmarks", "tst\Bechmarks\Bechmarks.csproj", "{F3E7339A-22F8-465C-8961-735314E731CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFC5E59F-02A2-4D9B-8DBD-F259D6A513F9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-test.yml = .github\workflows\build-and-test.yml
+		.github\workflows\pack-and-publish.yml = .github\workflows\pack-and-publish.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648F08E4-A46B-40AC-AE06-29FEADC51921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648F08E4-A46B-40AC-AE06-29FEADC51921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648F08E4-A46B-40AC-AE06-29FEADC51921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648F08E4-A46B-40AC-AE06-29FEADC51921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E7339A-22F8-465C-8961-735314E731CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E7339A-22F8-465C-8961-735314E731CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E7339A-22F8-465C-8961-735314E731CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E7339A-22F8-465C-8961-735314E731CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{648F08E4-A46B-40AC-AE06-29FEADC51921} = {F7E0EB1C-437B-4D45-A71C-18FF40EB2DA0}
+		{2D7C4565-030B-40C4-AD52-14CFD0C5A2F0} = {337D5A0E-844B-4C2B-88DB-95F823E19D82}
+		{F3E7339A-22F8-465C-8961-735314E731CD} = {337D5A0E-844B-4C2B-88DB-95F823E19D82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C4BD1EC-FDC4-4A6A-807E-ABF667F8C8BC}
+	EndGlobalSection
+EndGlobal
