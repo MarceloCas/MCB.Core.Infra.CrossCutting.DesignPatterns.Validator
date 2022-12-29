@@ -13,7 +13,7 @@ namespace Bechmarks.Benchs;
 [HtmlExporter]
 public class ValidatorBaseBench
 {
-    [Params(1, 3, 5, 10, 20, 50, 100)]
+    [Params(1, 3, 5, 10, 20)]
     public int IterationCount { get; set; }
 
     [Benchmark()]

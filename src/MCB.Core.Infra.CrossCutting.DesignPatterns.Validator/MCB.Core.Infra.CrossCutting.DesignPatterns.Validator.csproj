@@ -22,8 +22,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="FluentValidation" Version="11.2.2" />
-		<PackageReference Include="MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.Abstractions" Version="0.13.0-alpha" />
+		<PackageReference Include="FluentValidation" Version="11.4.0" />
+		<PackageReference Include="MCB.Core.Infra.CrossCutting.DesignPatterns.Validator.Abstractions" Version="0.14.0-alpha" />
 	</ItemGroup>
 
 </Project>
